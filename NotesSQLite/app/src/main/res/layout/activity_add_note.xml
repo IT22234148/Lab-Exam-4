@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="#60F4511E"
     android:layout_height="match_parent"
     tools:context=".AddNoteActivity">
 
@@ -18,7 +19,8 @@
         android:layout_marginLeft="11dp"
         android:fontFamily="@font/poppins"
         android:text="Add Note"
-        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:textColor="#DA0E58"
         android:textSize="24sp" />
 
     <ImageView
@@ -35,6 +37,7 @@
        android:layout_width="match_parent"
        android:layout_height="60dp"
        android:hint="Enter the title"
+       android:backgroundTint="#925900F4"
        android:padding="12dp"
        android:textSize="20sp"
        android:layout_below="@id/addNoteHeading"
@@ -53,6 +56,7 @@
         android:layout_marginLeft="11dp"
         android:layout_marginRight="11dp"
         android:layout_marginBottom="15dp"
+        android:backgroundTint="#D2E57373"
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"

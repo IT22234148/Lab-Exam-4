@@ -6,6 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#86F4511E"
     tools:context=".UpdateActivity">
 
 
@@ -18,8 +19,9 @@
         android:layout_marginLeft="11dp"
         android:fontFamily="@font/poppins"
         android:text="Edit Note"
-        android:textColor="@color/orange"
-        android:textSize="24sp" />
+        android:textColor="#06E810"
+        android:textStyle="bold"
+        android:textSize="27sp" />
 
     <ImageView
         android:id="@+id/updateSaveButton"
@@ -35,8 +37,10 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:hint="Enter the title"
+        android:textStyle="bold"
         android:padding="12dp"
         android:textSize="20sp"
+        android:backgroundTint="#95DC98"
         android:layout_below="@id/editNoteHeading"
         android:background="@drawable/orange_border"
         android:layout_marginTop="16dp"
@@ -50,9 +54,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:hint="Enter the Descrption"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         android:layout_marginLeft="11dp"
         android:layout_marginRight="11dp"
         android:layout_marginBottom="15dp"
+        android:backgroundTint="#ECD368"
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
