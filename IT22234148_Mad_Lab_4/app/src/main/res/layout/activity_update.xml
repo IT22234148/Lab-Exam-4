@@ -19,7 +19,7 @@
         android:layout_marginLeft="11dp"
         android:fontFamily="@font/poppins"
         android:text="Edit Note"
-        android:textColor="#06E810"
+        android:textColor="#0C0C0C"
         android:textStyle="bold"
         android:textSize="27sp" />
 
